@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+   
+    width:60%;
+    margin: auto;
+
+}
+.navbar {
+    background-color: black;
+    height: 50px;
+
+}
+
+.logoandlist{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logo{
+    background-color:black;
+
+  
+}
+
+.logo img {
+    width: 50%;
+    margin-top: 10px;
+
+}
+
+.navbar.list {
+    
+    margin-top: 10px;
+}
+.list ul {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.list ul li{
+    
+    margin-right: 30px;
+    margin-top: 10px;
+   
+
+}
+.list a{
+    color: white;
+    text-transform: uppercase;
+    
+}
+.protfolio{
+   margin-top: 20px;
+   
+    text-align: center;
+    
+}
+.protfolio .container {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.protfolios{
+     width: 440px;
+     height: 420px;
+    display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+   
+    
+    
+}
+.protfolio-items{
+     padding: 10px;
+    background-color:white; 
+
+}
+.protfolio-items img {
+    display: block;
+    width: 100%;
+}
